@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="EZtorrent"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/inno/Рабочий стол/EZtorrent/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/inno/Рабочий\ стол/EZtorrent/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/inno/Рабочий\ стол/EZtorrent/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/inno/Рабочий\ стол/EZtorrent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/inno/Рабочий\ стол/EZtorrent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/inno/Рабочий стол/EZtorrent/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/inno/Рабочий\ стол/EZtorrent/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/inno/Рабочий\ стол/EZtorrent/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/inno/Рабочий\ стол/EZtorrent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/inno/Рабочий\ стол/EZtorrent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/inno/Рабочий стол/EZtorrent/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/inno/Рабочий\ стол/EZtorrent/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/inno/Рабочий\ стол/EZtorrent/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/inno/Рабочий\ стол/EZtorrent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/inno/Рабочий\ стол/EZtorrent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="EZtorrent">
+				<Option output="/home/inno/Рабочий стол/EZtorrent/cmake-build-debug/EZtorrent" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/inno/Рабочий стол/EZtorrent/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/home/inno/Рабочий стол/EZtorrent/submodules/libtorrent/include"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/x86_64-linux-gnu/c++/7.5.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0/backward"/>
+					<Add directory="/usr/include/clang/6.0.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/llvm-6.0/lib/clang/6.0.0/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/inno/Рабочий\ стол/EZtorrent/cmake-build-debug/Makefile&quot;  VERBOSE=1 EZtorrent"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/inno/Рабочий\ стол/EZtorrent/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/inno/Рабочий\ стол/EZtorrent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/inno/Рабочий\ стол/EZtorrent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="EZtorrent/fast">
+				<Option output="/home/inno/Рабочий стол/EZtorrent/cmake-build-debug/EZtorrent" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/inno/Рабочий стол/EZtorrent/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/home/inno/Рабочий стол/EZtorrent/submodules/libtorrent/include"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/x86_64-linux-gnu/c++/7.5.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0/backward"/>
+					<Add directory="/usr/include/clang/6.0.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/llvm-6.0/lib/clang/6.0.0/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/inno/Рабочий\ стол/EZtorrent/cmake-build-debug/Makefile&quot;  VERBOSE=1 EZtorrent/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/inno/Рабочий\ стол/EZtorrent/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/inno/Рабочий\ стол/EZtorrent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/inno/Рабочий\ стол/EZtorrent/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/inno/Рабочий стол/EZtorrent/Logo.cpp">
+			<Option target="EZtorrent"/>
+		</Unit>
+		<Unit filename="/home/inno/Рабочий стол/EZtorrent/Logo.hpp">
+			<Option target="EZtorrent"/>
+		</Unit>
+		<Unit filename="/home/inno/Рабочий стол/EZtorrent/ProgressBar.cpp">
+			<Option target="EZtorrent"/>
+		</Unit>
+		<Unit filename="/home/inno/Рабочий стол/EZtorrent/ProgressBar.hpp">
+			<Option target="EZtorrent"/>
+		</Unit>
+		<Unit filename="/home/inno/Рабочий стол/EZtorrent/main.cpp">
+			<Option target="EZtorrent"/>
+		</Unit>
+		<Unit filename="/home/inno/Рабочий стол/EZtorrent/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

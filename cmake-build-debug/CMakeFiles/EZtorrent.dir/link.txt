@@ -1,0 +1,1 @@
+/usr/bin/clang++  -g   CMakeFiles/EZtorrent.dir/main.cpp.o CMakeFiles/EZtorrent.dir/ProgressBar.cpp.o CMakeFiles/EZtorrent.dir/Logo.cpp.o  -o EZtorrent  -Wl,-rpath,"/home/inno/Рабочий стол/EZtorrent/submodules/libtorrent/bin/gcc-7/debug/threading-multi" /usr/lib/x86_64-linux-gnu/libboost_system.so ../submodules/libtorrent/bin/gcc-7/debug/threading-multi/libtorrent.so.1.2.6 
