@@ -27,7 +27,7 @@ void ProgressBar::start(lt::torrent_handle h, bool is_m) {
         if (static_cast<int>(total_size) < 1024) {
             printf("SIZE:%5.1fMB|\n", total_size);
         } else if (static_cast<int>(total_size) >= 1024) {
-            printf("SIZE:%4.1fGB|\n", total_size / 1024);
+            printf("SIZE:%5.1fGB|\n", total_size / 1024);
         }
     }
 

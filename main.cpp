@@ -15,7 +15,7 @@ int main(int argc, char* argv[]) try
 {
     int op_index = 1;
     bool is_h = false;
-    bool is_i = false;
+//    bool is_i = false;
     bool is_m = false;
     if (argc < 2) {
         std::cerr << "USAGE: ./EZtorrent %file.torrent%\n"
@@ -24,9 +24,9 @@ int main(int argc, char* argv[]) try
     }
 
     if (argv[1][0] == '-') {
-        if (argv[op_index][1] == 'i' && !is_m) {
-            is_i = true;
-        }
+//        if (argv[op_index][1] == 'i' && !is_m) {
+//            is_i = true;
+//        }
         if (argv[op_index][1] == 'm'){
             is_m = true;
         }
@@ -35,7 +35,19 @@ int main(int argc, char* argv[]) try
         }
     }
 
-
+//    if (is_i) {
+//        std::cout << "Do you want to continue?\n";
+//        std::cout << "Yes(y) No(n)\n";
+//        while (true) {
+//            char answer;
+//            std::cin >> answer;
+//            if (answer == 'y' || answer == 'Y') {
+//                break;
+//            } else if (answer == 'N' || answer == 'n') {
+//                return 0;
+//            }
+//        }
+//    }
     if (is_h) {
         Logo logo;
         logo.out();
@@ -43,7 +55,7 @@ int main(int argc, char* argv[]) try
         std::cout << "|Help:                                   |\n";
         std::cout << "|USAGE: ./EZtorrent %file.torrent%       |\n";
         std::cout << "|To use <magnet>: ./EZtorrent -m %magnet%|\n";
-        std::cout << "|If you want interactive question use -i |\n";
+//        std::cout << "|If you want interactive question use -i |\n";
         std::cout << "|Use -h for help.                        |\n";
         std::cout << "|                     Made by            |\n";
         std::cout << "|                        Danil Nikiforov.|\n";
@@ -56,25 +68,13 @@ int main(int argc, char* argv[]) try
 //        return 1;
 //    }
 
-    if (is_i) {
-        std::cout << "Do you want to continue?\n";
-        std::cout << "Yes(y) No(n)\n";
-        while (true) {
-            char answer;
-            std::cin >> answer;
-            if (answer == 'y' || answer == 'Y') {
-                break;
-            } else if (answer == 'N' || answer == 'n') {
-                return 0;
-            }
-        }
-    }
+
     if (is_m) {
         try {
             //std::cout << argv[2] << "\n";
             lt::session s;
             lt::add_torrent_params p = lt::parse_magnet_uri(argv[2]);
-            p.save_path = "./";
+            p.save_path = "./downloads";
 
 //            std::cout << p.ti->total_size() << "\n";
             lt::torrent_handle h = s.add_torrent(p);
@@ -90,12 +90,12 @@ int main(int argc, char* argv[]) try
         try {
             lt::session s;
             lt::add_torrent_params p;
-            p.save_path = "./";
-            int i = 1;
-            if (is_i) {
-                i++;
-            }
-            p.ti = std::make_shared<lt::torrent_info>(argv[i]);
+            p.save_path = "./downloads";
+//            int i = 2;
+//            if (is_i) {
+//                i++;
+//            }
+            p.ti = std::make_shared<lt::torrent_info>(argv[1]);
             lt::torrent_handle h = s.add_torrent(p);
             Logo logo;
             logo.out();
