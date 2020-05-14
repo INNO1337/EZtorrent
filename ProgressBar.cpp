@@ -45,7 +45,7 @@ void ProgressBar::start(lt::torrent_handle h, bool is_m) {
         if (downloaded < 1024) {
             printf("|READY: %5.1fMB|SEEDS: %4d|PEERS: %5d", floor(downloaded*100)/100, h.status().num_seeds, h.status().num_peers);
         } else {
-            printf("|READY: %5.1fMB|SEEDS: %4d|PEERS: %5d", floor((downloaded/1024)*100)/100, h.status().num_seeds, h.status().num_peers);
+            printf("|READY: %5.1fGB|SEEDS: %4d|PEERS: %5d", floor((downloaded/1024)*100)/100, h.status().num_seeds, h.status().num_peers);
         }
         std::cout <<"|❪";
         int pos = static_cast<int>(static_cast<float>(width) * progress);

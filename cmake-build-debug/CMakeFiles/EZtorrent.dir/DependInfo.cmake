@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/inno/Рабочий стол/EZtorrent/Logo.cpp" "/home/inno/Рабочий стол/EZtorrent/cmake-build-debug/CMakeFiles/EZtorrent.dir/Logo.cpp.o"
-  "/home/inno/Рабочий стол/EZtorrent/ProgressBar.cpp" "/home/inno/Рабочий стол/EZtorrent/cmake-build-debug/CMakeFiles/EZtorrent.dir/ProgressBar.cpp.o"
-  "/home/inno/Рабочий стол/EZtorrent/main.cpp" "/home/inno/Рабочий стол/EZtorrent/cmake-build-debug/CMakeFiles/EZtorrent.dir/main.cpp.o"
+  "/home/inno/Рабочий стол/1/EZtorrent/Logo.cpp" "/home/inno/Рабочий стол/1/EZtorrent/cmake-build-debug/CMakeFiles/EZtorrent.dir/Logo.cpp.o"
+  "/home/inno/Рабочий стол/1/EZtorrent/ProgressBar.cpp" "/home/inno/Рабочий стол/1/EZtorrent/cmake-build-debug/CMakeFiles/EZtorrent.dir/ProgressBar.cpp.o"
+  "/home/inno/Рабочий стол/1/EZtorrent/main.cpp" "/home/inno/Рабочий стол/1/EZtorrent/cmake-build-debug/CMakeFiles/EZtorrent.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "Clang")
 

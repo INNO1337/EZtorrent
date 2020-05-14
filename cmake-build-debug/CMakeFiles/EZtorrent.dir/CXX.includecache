@@ -954,6 +954,18 @@ type_traits
 libtorrent/assert.hpp
 ../submodules/libtorrent/include/libtorrent/libtorrent/assert.hpp
 
+../submodules/libtorrent/include/libtorrent/magnet_uri.hpp
+string
+-
+libtorrent/config.hpp
+../submodules/libtorrent/include/libtorrent/libtorrent/config.hpp
+libtorrent/torrent_handle.hpp
+../submodules/libtorrent/include/libtorrent/libtorrent/torrent_handle.hpp
+libtorrent/add_torrent_params.hpp
+../submodules/libtorrent/include/libtorrent/libtorrent/add_torrent_params.hpp
+libtorrent/string_view.hpp
+../submodules/libtorrent/include/libtorrent/libtorrent/string_view.hpp
+
 ../submodules/libtorrent/include/libtorrent/operations.hpp
 libtorrent/config.hpp
 ../submodules/libtorrent/include/libtorrent/libtorrent/config.hpp
@@ -1484,11 +1496,23 @@ libtorrent/config.hpp
 libtorrent/aux_/export.hpp
 ../submodules/libtorrent/include/libtorrent/libtorrent/aux_/export.hpp
 
-/home/inno/Рабочий стол/EZtorrent/ProgressBar.cpp
-ProgressBar.hpp
-/home/inno/Рабочий стол/EZtorrent/ProgressBar.hpp
+/home/inno/Рабочий стол/1/EZtorrent/Logo.cpp
+Logo.hpp
+/home/inno/Рабочий стол/1/EZtorrent/Logo.hpp
 
-/home/inno/Рабочий стол/EZtorrent/ProgressBar.hpp
+/home/inno/Рабочий стол/1/EZtorrent/Logo.hpp
+iostream
+-
+vector
+-
+string
+-
+
+/home/inno/Рабочий стол/1/EZtorrent/ProgressBar.cpp
+ProgressBar.hpp
+/home/inno/Рабочий стол/1/EZtorrent/ProgressBar.hpp
+
+/home/inno/Рабочий стол/1/EZtorrent/ProgressBar.hpp
 iostream
 -
 vector
@@ -1496,15 +1520,37 @@ vector
 cstdlib
 -
 libtorrent/entry.hpp
-/home/inno/Рабочий стол/EZtorrent/libtorrent/entry.hpp
+/home/inno/Рабочий стол/1/EZtorrent/libtorrent/entry.hpp
 libtorrent/bencode.hpp
-/home/inno/Рабочий стол/EZtorrent/libtorrent/bencode.hpp
+/home/inno/Рабочий стол/1/EZtorrent/libtorrent/bencode.hpp
 libtorrent/session.hpp
-/home/inno/Рабочий стол/EZtorrent/libtorrent/session.hpp
+/home/inno/Рабочий стол/1/EZtorrent/libtorrent/session.hpp
 libtorrent/torrent_info.hpp
-/home/inno/Рабочий стол/EZtorrent/libtorrent/torrent_info.hpp
+/home/inno/Рабочий стол/1/EZtorrent/libtorrent/torrent_info.hpp
 libtorrent/torrent_status.hpp
 -
 iostream
 -
+
+/home/inno/Рабочий стол/1/EZtorrent/main.cpp
+cstdlib
+-
+libtorrent/entry.hpp
+/home/inno/Рабочий стол/1/EZtorrent/libtorrent/entry.hpp
+libtorrent/bencode.hpp
+/home/inno/Рабочий стол/1/EZtorrent/libtorrent/bencode.hpp
+libtorrent/session.hpp
+/home/inno/Рабочий стол/1/EZtorrent/libtorrent/session.hpp
+libtorrent/torrent_info.hpp
+/home/inno/Рабочий стол/1/EZtorrent/libtorrent/torrent_info.hpp
+libtorrent/torrent_status.hpp
+-
+libtorrent/magnet_uri.hpp
+-
+iostream
+-
+ProgressBar.hpp
+/home/inno/Рабочий стол/1/EZtorrent/ProgressBar.hpp
+Logo.hpp
+/home/inno/Рабочий стол/1/EZtorrent/Logo.hpp
 
